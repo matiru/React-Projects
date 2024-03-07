@@ -19,6 +19,7 @@ export default function Accordian(){
 
     function handleMultiSelection(getCurrentId){
         let cpyMutiple = [...multiple];
+        console.log('getCurrentId', getCurrentId);
         const findIndexOfCurrentId = cpyMutiple.indexOf(getCurrentId);
         console.log('findIndexOfCurrentId', findIndexOfCurrentId);
         if(findIndexOfCurrentId === -1){
